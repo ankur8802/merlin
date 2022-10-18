@@ -120,7 +120,7 @@
             <h2>
                Welcome to Merlin
             </h2>
-            <p> Here you will be greeted by our team of experts who are here to provide you with a luxurious experience.</p>
+            <p>Marlin is one of the top beauty brands in India.  Marlin Academy that specialises in training individuals to become successful across sectors. Here you will be greeted by our team of experts who are here to provide you with a luxurious experience.</p>
             <!-- button -->
             <a href="<?= base_url('about-us')?>" class="btn btn-primary">About us</a>
          </div>
@@ -134,12 +134,13 @@
 <!-- section -->
 <section class="inside-wrapper container">
    <div class="row">
-      <div class="col-xl-6 offset-xl-3 text-center my-auto">
-         <span class="sub-header">what we offer</span>
+      <div class="col-xl-7 offset-xl-3 text-center my-auto">
+         <span class="sub-header">GET GROMED BY BEAUTY EXPERTS</span>
          <h2>
             Our Services
          </h2>
-         <p class="mt-3">Fusce efficitur nulla vitae metus vehicula semper Proin a mattis ligula quisque sed dapibus eros.</p>
+        <strong> “Become a trendsetter and climb up the success ladder!“ </strong><br>
+        <p class="mt-3"> Marlin Academy that specialises in training individuals to become successful across sectors. Hair Care, Makeup and Skin Care professionals.  </p>
       </div>
       <!-- /col-xl -->
    </div>
@@ -222,9 +223,11 @@
          </div>
          <!--/ about-home-->
          <div class="col-xl-6 bg-primary p-6 ">
-            <h3 class="text-dark">About our Salon</h3>
-            <p class="lead text-dark">We have been in business for over 30 years. This longevity is a testament to the quality we provide. </p>
-            <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+            <h3 class="text-dark">GLAM UP YOUR CAREER </h3>
+            <p class="lead text-dark">"Learn From The Stars Behind The Show!"<br> We have been in business for over 30 years. This longevity is a testament to the quality we provide. </p>
+            <p class="text-dark">
+            Marlin Academy trains aspiring students and helps them gain essential skills in order to make a successful career in the exciting field of glamour. Professionals in the field hone their skills so as to make them the best stylists in the industry    
+           </p>
             <!-- button -->
             <a href="<?= base_url('about-us')?>" class="btn btn-secondary">More Info</a>
          </div>
@@ -240,12 +243,11 @@
    <!-- row -->
    <div class="row h-10">
       <div class="col-lg-6 my-auto">
-         <span class="sub-header">what we do</span>
-         <h2>Why Choose us?</h2>
+         <span class="sub-header">LET YOUR CAREER MAKE A STYLISH STATEMENT</span>
+         <h2>Why Choose Merlin for Career?</h2>
          <p class="mt-3 lead">We have top-of-the-line hair and makeup products, skilled stylists, and even a relaxing spa.</p>
-         <p>Vestibulum ut placerat nibh, in efficitur lacus. Morbi risus sapien, imperdiet at nibh ullamcorper, ornare sodales risus. </p>
-         <p>Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-         </p>
+         <p> At the Marlin Academy there are different courses to specialise in hairstyling and makeup. The curriculum is designed in a way that it would open up a number of job prospects in the fashion, beauty, film and entertainment field.</p>
+        
       </div>
       <!--/ col-lg-->
       <div class="col-lg-5 offset-lg-1 res-mt-5 my-auto">
