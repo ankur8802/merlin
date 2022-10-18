@@ -38,7 +38,7 @@
                      <i class="fa fa- fa-envelope"></i>
                   </div>
                   <h6 class="mb-0">Email</h6>
-                  <p class="mb-0">Email address: <a href="mailto:info@merlin.com">info@merlin.com</a></p>
+                  <p class="mb-0">Email address: <a href="mailto:info@merlin.com">info@marlin.com</a></p>
                </div>
             </div>
             <!-- /contact-icon-->
@@ -87,6 +87,6 @@
       </a>
    </div>
    <!-- /logo -->
-   <p class="mt-3">All Rights reserved <a href="<?= base_url()?>">MERLIN</a></p>
+   <p class="mt-3">All Rights reserved <a href="<?= base_url()?>">MARLIN</a></p>
 </div>
 <!-- /credits -->

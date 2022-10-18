@@ -1268,7 +1268,7 @@
       </a>
    </div>
    <!-- /logo -->
-   <p class="mt-3">All Rights reserved <a href="#">MGU</a></p>
+   <p class="mt-3">All Rights reserved <a href="#">MARLIN</a></p>
                </div>
                <!-- /credits -->
             </div>
