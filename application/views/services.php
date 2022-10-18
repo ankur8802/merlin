@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-   
 <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -12,16 +11,13 @@
       <script src="js/respond.js"></script>
       <![endif]-->
       <!-- Font files -->
-
       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i%7CMuli:400,700&amp;display=swap" rel="stylesheet">
-
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <!-- Fav icons -->
       <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.html">
       <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
       <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
       <!-- Bootstrap core CSS -->
       <link href="<?= base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">
       <!-- style CSS -->
