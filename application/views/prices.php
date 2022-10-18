@@ -145,6 +145,9 @@
                            <h3>
                               Cosmetology
                            </h3>
+                           <p>CERTIFICATE COURSE IN COSMETOLOGY </p>
+                           <p>Duration: 12 Month</p>
+                           <p>We course provides students with the knowledge/skills and attitudes needed to work as a beautician in the beauty industry. It equip the students with the knowledge and understanding of the SKIN nail & makeup services and treatments.</p>
 
                         </div>
                         <!--/ col-lg-->
@@ -448,6 +451,9 @@
                            <h3>
                               Beauty Therapy
                            </h3>
+                           <p>Duration: 3 Months </p>
+                           <p>The curriculum of the course is designed based on the latest Techniques and products popular across the world. Such a course us at training the student to build a strong foundation and gain Skills with a deeper understanding of beauty techniques necessary to succeed as a Beauty Therapist.                               
+                           </p> 
                         </div>
                         <!--/ col-lg-->
                      </div>

@@ -316,8 +316,8 @@
          <div class="col-xl-5 my-auto">
             <span class="sub-header">questions</span>
             <h2>OUR FAQ</h2>
-            <p class="lead">Aenean ut ex leo. Nulla faucibus turpis sit amet turpis mattis vestibulum et vel</p>
-            <p>Aenean ut ex leo. Nulla faucibus turpis sit amet turpis mattis vestibulum et vel enim. Suspendisse aliquet elit praesent vel nisl in qua. </p>
+            <p class="lead">Marlin has a prime objective of bridging the Marlin Salon Experts train students and give gap between traditional methodologies of them in-depth knowledge about various teaching and training students to gain in de courses and make them capable enough to shine with opportunities. </p>
+           
          </div>
          <!-- /col-xl -->
          <div class="col-xl-6 offset-xl-1">
