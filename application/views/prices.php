@@ -6,7 +6,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- page title -->
-      <title> Beauty </title>
+      <title> Marlin </title>
       <!--[if lt IE 9]>
       <script src="js/respond.js"></script>
       <![endif]-->
