@@ -96,7 +96,7 @@
       <div class="col-lg-3 my-auto">
          <span class="sub-header">The Academic</span>
          <h2>
-            Merlin
+            Marlin
          </h2>
          <p class="mt-4 lead">Marlin Beauty and Wellness Academy is a leading beauty training academy in India.</p>
       </div>

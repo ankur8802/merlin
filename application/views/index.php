@@ -37,7 +37,7 @@
    </head>
    <!-- ==== body starts ==== -->
    <body id="top">
- 
+
       <!-- end demo_changer -->
       <!-- Preloader -->
       <div id="preloader">
@@ -81,7 +81,7 @@
          <a href="<?= base_url('programmes')?>">
             <div class="box-effect col-lg-12 d-flex h-100 boxbg2 bg-overlay1" >
                <div class="text-center my-auto w-100">
-                  <h2 class="m-0 text-grid">Programmes</h2>
+                  <h2 class="m-0 text-grid">Programs</h2>
                </div>
                <!--/ box-bg 2-->
             </div>
@@ -118,7 +118,7 @@
          <div class="col-lg-5 p-5  my-auto">
             <span class="sub-header">hello there</span>
             <h2>
-               Welcome to Merlin
+               Welcome to Marlin
             </h2>
             <p>Marlin is one of the top beauty brands in India.  Marlin Academy that specialises in training individuals to become successful across sectors. Here you will be greeted by our team of experts who are here to provide you with a luxurious experience.</p>
             <!-- button -->
@@ -207,7 +207,7 @@
    <div class="row text-center mt-5">
       <div class="col-xl-12">
          <!-- button -->
-         <a href="<?= base_url('programmes')?>" class="btn btn-primary  btn-lg"> See All Programmes </a>
+         <a href="<?= base_url('programmes')?>" class="btn btn-primary  btn-lg"> See All Programs </a>
       </div>
       <!-- /col-xl -->
    </div>
@@ -244,7 +244,7 @@
    <div class="row h-10">
       <div class="col-lg-6 my-auto">
          <span class="sub-header">LET YOUR CAREER MAKE A STYLISH STATEMENT</span>
-         <h2>Why Choose Merlin for Career?</h2>
+         <h2>Why Choose Marlin for Career?</h2>
          <p class="mt-3 lead">We have top-of-the-line hair and makeup products, skilled stylists, and even a relaxing spa.</p>
          <p> At the Marlin Academy there are different courses to specialise in hairstyling and makeup. The curriculum is designed in a way that it would open up a number of job prospects in the fashion, beauty, film and entertainment field.</p>
         
