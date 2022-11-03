@@ -99,7 +99,7 @@
       <!-- card --> 
       <div class="col-lg-4 card-service-collumn">
          <div class="card-service bg-1 border-bottom">
-            <a href="<?= base_url('prices')?>">
+            <a href="<?= base_url('program-details')?>">
                <div class="txt">
                   <h5>Cosmetology</h5>
                </div>
@@ -112,7 +112,7 @@
       <!-- card --> 
       <div class="col-lg-4 card-service-collumn">
          <div class="card-service bg-2 border-bottom">
-            <a href="<?= base_url('prices')?>">
+            <a href="<?= base_url('program-details')?>">
                <div class="txt">
                   <h5>Beauty Therapy</h5>
                </div>
@@ -125,7 +125,7 @@
       <!-- card --> 
       <div class="col-lg-4 card-service-collumn">
          <div class="card-service bg-3 border-bottom">
-            <a href="<?= base_url('prices')?>">
+            <a href="<?= base_url('program-details')?>">
                <div class="txt">
                   <h5>Hair</h5>
                </div>
@@ -141,7 +141,7 @@
       <!-- card --> 
       <div class="col-lg-4 card-service-collumn">
          <div class="card-service bg-4 border-bottom">
-            <a href="<?= base_url('prices')?>">
+            <a href="<?= base_url('program-details')?>">
                <div class="txt">
                   <h5>Skin</h5>
                </div>
@@ -154,7 +154,7 @@
       <!-- card --> 
       <div class="col-lg-4 card-service-collumn">
          <div class="card-service bg-5 border-bottom">
-            <a href="<?= base_url('prices')?>">
+            <a href="<?= base_url('program-details')?>">
                <div class="txt">
                   <h5>Nail Art</h5>
                </div>
@@ -167,7 +167,7 @@
       <!-- card --> 
       <div class="col-lg-4 card-service-collumn">
          <div class="card-service bg-6 border-bottom">
-            <a href="<?= base_url('prices')?>">
+            <a href="<?= base_url('program-details')?>">
                <div class="txt">
                   <h5>Corporate Makeup</h5>
                </div>

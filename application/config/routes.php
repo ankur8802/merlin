@@ -56,6 +56,7 @@ $route['translate_uri_dashes'] = FALSE;
 $route['(?i)programs'] = 'Welcome/services'; 
 $route['(?i)about-us'] = 'Welcome/about_us'; 
 $route['(?i)prices'] = 'Welcome/prices'; 
+$route['(?i)program-details'] = 'Welcome/prices'; 
 $route['(?i)contact'] = 'Welcome/contact'; 
 $route['(?i)send-us-a-message'] = 'Welcome/send_us_a_message'; 
 $route['(?i)apply-job'] = 'Welcome/apply_job'; 

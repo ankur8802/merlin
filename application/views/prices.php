@@ -61,7 +61,7 @@
    <!-- page header -->
    <div class="page-header bg-overlay1 container-fluid border-bottom" >
       <div class="col-xl-6 offset-xl-3">
-         <h1>Price List</h1>
+         <h1>Program Details</h1>
          <!-- /breadcrumb -->
          <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
