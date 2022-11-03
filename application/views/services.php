@@ -50,19 +50,6 @@
           <?php
               include('common/sidebar.php')
            ?>
-               <!--/sidebar-nav -->
-               <div class="navbar-info d-none d-xl-block">
-                  <p class="small-text"><i class="fas fa-phone margin-icon"></i>13 456 890</p>
-                  <p class="small-text"><i class="fas fa-map-marker-alt margin-icon"></i>Street name 123 <br/> New York</p>
-                  <!--Social icons -->
-                  <div class="social-media ">
-                     <a href="#" title=""><i class="fab fa-facebook"></i></a>
-                     <a href="#" title=""><i class="fab fa-instagram"></i></a>
-					 <a href="#" title=""><i class="fab fa-yelp"></i></a>
-                     <a href="mailto:email@email.com" title=""><i class="fas fa-envelope"></i></a>
-                  </div>
-               </div>
-               <!-- /navbar-info -->
             </div>
             <!-- /affix-sidebar  -->
          </div>
@@ -97,8 +84,8 @@
          <h2>
             Excellence & Quality
          </h2>
-         <p class="mt-4">Proin a mattis ligula quisque sed dapibus eros. Etiam ac neque sed risus sodales</p>
-         <p> A hendrerit vel ac dia urabitur varius metus u Lorbi malesuada ullamcorper ipsum.</p>
+         <p class="mt-4">Make your glamorous dream a reality through excellent training and brilliant hands-on experience right here as Lakme! </p>
+         
       </div>
       <!--/ col-lg-->
       <div class="col-lg-6 offset-lg-1 res-mt-5 my-auto">
@@ -207,7 +194,7 @@
             <h3>
                Visit us Today
             </h3>
-            <p class="mt-3">Suspendisse magna magna lorem ipsum, consectetur at erat non, mattis aliquet elit. </p>
+            <p class="mt-3">GLAM UP YOU AND YOUR CAREER !! </p>
             <a href="<?= base_url('contact')?>" class="btn btn-secondary">Contact us</a>
          </div>
          <!-- /col-xl -->

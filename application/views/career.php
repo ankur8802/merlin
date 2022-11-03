@@ -33,7 +33,6 @@
 	   <!-- Switcher Only -->
       <link rel="stylesheet" id="switcher-css" type="text/css" href="<?= base_url()?>assets/css/switcher.css" media="all" />
       <!-- END Switcher Styles -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
 <style>
     .swal-modal
@@ -84,18 +83,12 @@
         background-color:#fff!important;
         color:#D39B59;
     }
-    .datepicker 
-    {
-        background-color:#000!important;
-    }
-    .flatpickr-time input:hover, .flatpickr-time .flatpickr-am-pm:hover, .flatpickr-time input:focus, .flatpickr-time .flatpickr-am-pm:focus
-    {
-        background:#D39B59!important;
-    }
-    .flatpickr-am-pm
-    {
-        color:#000!important;
-    }
+    select option {
+  margin: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
 </style>
 
    </head>
@@ -116,6 +109,7 @@
         <?php
               include('common/sidebar.php')
            ?>
+            
             </div>
             <!-- /affix-sidebar  -->
          </div>
@@ -127,12 +121,12 @@
 <!-- page header -->
 <div class="page-header bg-overlay1 container-fluid border-bottom" >
    <div class="col-xl-6 offset-xl-3">
-      <h1>Contact</h1>
+      <h1>Career</h1>
       <!-- /breadcrumb -->
       <nav aria-label="breadcrumb">
          <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="<?= base_url()?>">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            <li class="breadcrumb-item active" aria-current="page">Career</li>
          </ol>
       </nav>
       <!-- /breadcrumb -->
@@ -145,95 +139,68 @@
 <section class="inside-wrapper container">
    <div class="row h-10">
       <div class="col-xl-6">
-         <span class="sub-header">contact</span>
-         <h2>Get in Touch
-         </h2>
-         <p class="mb-5">We pay attention to every little detail to make your visit comfortable, so please get in touch to book the treatments that feel right for you.</p>
-         <div class="col-md-12 text-lg-start text-center">
-            <div class="contact-icon my-auto">
-               <div class="contact-icon-info">
-                  <!---icon-->
-                  <div class="top-icon">
-                     <i class="fa fa- fa-envelope"></i>
+           <h4 class="mb-5">Current Opening's</h4>
+            <!--accordion -->		
+            <div class="accordion" id="accordionExample">
+               <!--accordion item -->
+               <div class="accordion-item">
+                  <h5 class="accordion-header" id="headingOne">
+                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     Our Short Term Courses
+                     </button>
+                  </h5>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                        <p>Short-term courses train students in classic and creative hair styling, cuts, colour and makeup. This is a quick yet thorough way to get a good grasp O skills required to develop into an expert stylist.
+                        </p>
+                     </div>
                   </div>
-                  <h6 class="mb-0">Email</h6>
-                  <p class="mb-0">Email address: <a href="mailto:info@merlin.com">info@marlin.com</a></p>
-               </div>
+               </div>               
+              
             </div>
-            <!-- /contact-icon-->
-         </div>
-         <!-- /col-md-->
-         <div class="col-md-12 mt-4 my-auto text-lg-start text-center">
-            <div class="contact-icon my-auto">
-               <div class="contact-icon-info">
-                  <!---icon-->
-                  <div class="top-icon">
-                     <i class="fa fa-phone"></i>
-                  </div>
-                  <h6 class="mb-0">Phone</h6>
-                  <p class="mb-0">Number: <a href="tel:+91-9289670222">+91-9289670222</a></p>
-               </div>
-            </div>
-            <!-- /contact-icon-->
-         </div>
-         <!-- /col-md-->
-         <div class="col-md-12 mt-4 my-auto text-lg-start text-center">
-            <div class="contact-icon my-auto">
-               <div class="contact-icon-info ">
-                  <!---icon-->
-                  <div class="top-icon">
-                     <i class="fa fa-map-marker"></i>
-                  </div>
-                  <h6 class="mb-0">Address</h6>
-                  <p class="mb-0">E/14 , Jhandewalan Extension , New Delhi-110055</p>
-               </div>
-            </div>
-            <!-- /contact-icon-->
-         </div>
-         <!-- /col-md-->
+            <!--/accordion -->
       </div>
       <!-- /col-xl-->
       <div class="offset-xl-1 col-xl-5 res-mt-5 my-auto">
-         <h4 class="mb-5">Send us a Message</h4>
+         <h4 class="mb-5">Apply Job</h4>
          <!-- contact info -->
          <div class="contact-info">
             <div id="error-message"></div>
             <!-- Form Starts -->
-            <form action="https://formsubmit.co/5bc201a53a6636ee748134016298bd56" id="contact_form" method="post">
+            <form action="https://formsubmit.co/5bc201a53a6636ee748134016298bd56" id="contact_form" method="post" enctype="multipart/form-data">
                <div class="form-group">
                   <!-- row -->
                   <div class="col-md-12">
-
                      <div class="col-md-12">
                         <input type="text" name="name" class="form-control input-field" placeholder="Name*" required> 
                      </div>
-
                      <div class="col-md-12 mt-4">
-                        <input type="tel" name="phone" class="form-control input-field" placeholder="Phone*" required> 
+                        <input type="email" name="email" class="form-control input-field" placeholder="Email*" required> 
                      </div>
-
                      <div class="col-md-12 mt-4">
-                        <input type="email" name="email" class="form-control input-field" placeholder="Email"> 
-                        <input type="hidden" name="_next" value="<?= base_url('send-us-a-message')?>">
+                        <lebel>Resume* </lebel>
+                        <input type="file" name="attachment" accept="image/png, image/jpeg" class="form-control input-field" required> 
+                     </div>
+                     <div class="col-md-12 mt-4">
+                        <input type="tel" name="phone" class="form-control input-field" placeholder="Phone" required> 
+                        <input type="hidden" name="_next" value="<?= base_url('apply-job')?>">
                         <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_subject" value="Send us a Message">
+                        <input type="hidden" name="_subject" value="Apply Job">
                      </div>
-
                      <div class="col-md-12 mt-4">
-                        <input type="input" name="preferable_time_to_call_back" class="form-control input-field datepicker" placeholder="Preferable Time to Call Back" required> 
-                     </div>
+                        
+                        <select name="position"  class="form-control input-field" required>
+                            <option value=""> Choose Job </option>
+                            <option> Our Short Term Courses </option>
+                        </select>
 
-                     <div class="col-md-12 mt-4">
-                        <input type="text" name="subject" class="form-control input-field" placeholder="Subject" required> 
                      </div>
-
                      <div class="col-md-12 mt-4">
                         <textarea name="message" id="message" placeholder="Your Message*" class="textarea-field form-control" rows="3"  required></textarea>
                      </div>
-
                   </div>
                   <!-- /row -->
-                  <button type="submit" id="submit_btn" value="Submit" class="btn btn-primary mt-4">Send message</button>
+                  <button type="submit" id="submit_btn" value="Submit" class="btn btn-primary mt-4">Apply Now</button>
                </div>
                <!-- Contact results -->
                <div id="contact_results"></div>
@@ -249,7 +216,6 @@
 <!-- /section ends -->
 <!-- map -->
 <div class="col-md-12 res-mt-5 border-top mb-5">
-
 <style>
 .google-maps {
     position: relative;
@@ -266,7 +232,6 @@
     height:100% !important;
 }
 </style>
-
     <!-- map-->
          <div class="google-maps">
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14005.54630625018!2d77.19696938402119!3d28.64814155951438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd676fffffff%3A0x5a2b75443d46cef1!2sExcel%20Group!5e0!3m2!1sen!2sin!4v1665576691097!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -313,7 +278,7 @@
 <script src="<?= base_url()?>assets/js/contact.js"></script>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
 
 <?php
    if($this->session->flashdata('success'))
@@ -357,16 +322,6 @@
    }
    
 ?>
-
-<script>
-        $(".datepicker").flatpickr({
-            enableTime: true,
-            noCalendar: true,
-            dateFormat: "H:i",
-            minTime: "10:30",
-            maxTime: "18:30",
-        });
-</script>
 
 </body>
 

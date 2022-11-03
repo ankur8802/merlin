@@ -28,4 +28,13 @@ function send_us_a_message()
    $this->session->set_flashdata('success','Your application has been submitted successfully');
    redirect('contact');
 }
+function apply_job()
+{
+   $this->session->set_flashdata('success','Your Job application has been submitted successfully');
+   redirect('career');
+}
+function Career()
+{
+   $this->load->view('career');	
+}
 }

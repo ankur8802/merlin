@@ -51,19 +51,6 @@
         <?php
               include('common/sidebar.php')
            ?>
-               <!--/sidebar-nav -->
-               <div class="navbar-info d-none d-xl-block">
-                  <p class="small-text"><i class="fas fa-phone margin-icon"></i>13 456 890</p>
-                  <p class="small-text"><i class="fas fa-map-marker-alt margin-icon"></i>Street name 123 <br/> New York</p>
-                  <!--Social icons -->
-                  <div class="social-media ">
-                     <a href="#" title=""><i class="fab fa-facebook"></i></a>
-                     <a href="#" title=""><i class="fab fa-instagram"></i></a>
-					 <a href="#" title=""><i class="fab fa-yelp"></i></a>
-                     <a href="mailto:email@email.com" title=""><i class="fas fa-envelope"></i></a>
-                  </div>
-               </div>
-               <!-- /navbar-info -->
             </div>
             <!-- /affix-sidebar  -->
          </div>
@@ -79,7 +66,7 @@
          <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                <li class="breadcrumb-item"><a href="<?= base_url()?>">Home</a></li>
-               <li class="breadcrumb-item active" aria-current="page">price list</li>
+               <li class="breadcrumb-item active" aria-current="page">Prorams</li>
             </ol>
          </nav>
          <!-- /breadcrumb -->
@@ -165,7 +152,7 @@
                                        <p>Grooming, Hygiene & Safety</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -178,7 +165,7 @@
                                        <p>Understanding skin type & Analysis</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -191,7 +178,7 @@
                                        <p>Cleansing & Toning practice</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -204,7 +191,7 @@
                                        <p>Exfoliation & Extraction</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -217,7 +204,7 @@
                                        <p>Massage Manipulation</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -230,7 +217,7 @@
                                        <p>Anti pigmentation treatment</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -243,7 +230,7 @@
                                        <p>Hands & Feet massage</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -256,7 +243,7 @@
                                        <p>Manicure & Pedicure</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -269,7 +256,7 @@
                                        <p>Hair Spa & Hair Treatments</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -282,7 +269,7 @@
                                        <p>Straightening</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -305,7 +292,7 @@
                                        <p>Perm </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -318,7 +305,7 @@
                                        <p>Keratin </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -331,7 +318,7 @@
                                        <p>Hair Art & Bridal Hair Styling </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -344,7 +331,7 @@
                                        <p>Basic Hair cuts </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -357,7 +344,7 @@
                                        <p>Grey Coverage and Root Touch ups </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -370,7 +357,7 @@
                                        <p>Blow drying and Heat styling </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -383,7 +370,7 @@
                                        <p>Treatments for Hair fall and Dandruff </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -396,7 +383,7 @@
                                        <p>Hair spas/ Hair Oil Massage </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -409,7 +396,7 @@
                                        <p>Creative Haircuts and Colouring </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -422,7 +409,7 @@
                                        <p>Men’s Hair Cuts </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        <p></p>
@@ -470,7 +457,7 @@
                                        <p>Masks</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
 
@@ -483,7 +470,7 @@
                                        <p>Bleaching</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -496,7 +483,7 @@
                                        <p>Advanced Facials</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -509,7 +496,7 @@
                                        <p>Waxing</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -532,7 +519,7 @@
                                        <p>Threading</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -545,7 +532,7 @@
                                        <p>Skin Treatments</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -558,7 +545,7 @@
                                        <p>Clean-ups Basic facials </p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -587,6 +574,11 @@
                            <h3>
                               Nail Art
                            </h3>
+                           <p>NAIL ARTIST PROFESSIONAL IN NAIL ART AND EXTENSIONS</p>
+                           <p> Duration : 1.5 Month </p>
+                           <p>The students are equipped with the latest nail trends and designs. They are also given complete training and conceptual understanding of all the techniques and processes in nail art 
+                           </p>
+                           <p></p>
                           
                         </div>
                         <!--/ col-lg-->
@@ -604,7 +596,7 @@
                                        <p>Nail Science</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -617,7 +609,7 @@
                                        <p>Nail Art</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -630,7 +622,7 @@
                                        <p>Acrylic Nail Extension with Nail Art</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -643,7 +635,7 @@
                                        <p>Client Consultation</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
 
@@ -666,7 +658,7 @@
                                        <p>Get Polish</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -679,7 +671,7 @@
                                        <p>Cut, File and Polish</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -692,7 +684,7 @@
                                        <p>Gel Extension with Nail Art</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -721,6 +713,9 @@
                            <h3>
                               Skin
                            </h3>
+                           <p>SKIN BEAUTY THERAPIST</p> 
+                           <p> Duration: 3 Months </p>  
+                           <p>The curriculum of the course is designed based on the latest Techniques and products popular across the world. Such a course us at training the student to build a strong foundation and gain Skills with a deeper understanding of beauty techniques necessary to succeed as a Beauty Therapist. </p>
                         </div>
                         <!--/ col-lg-->
                      </div>
@@ -737,7 +732,7 @@
                                        <p>Introduction to advanced skin aesthetics: acne, pigmentation, masques & anti-aging treatment</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -750,7 +745,7 @@
                                        <p>Details of skin & nail structure</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -763,7 +758,7 @@
                                        <p>Hygiene & sterilisation practices</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -776,7 +771,7 @@
                                        <p>Anatomy & physiology of face, head & body systems</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -789,7 +784,7 @@
                                        <p>Skin consultation</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -802,7 +797,7 @@
                                        <p>Essential services in skin</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -825,7 +820,7 @@
                                        <p>Clean-ups & facials</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -838,7 +833,7 @@
                                        <p>Manicure & pedicure</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -851,7 +846,7 @@
                                        <p>Use of galvanic steamer, vacuum suction & ultrasonic</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -864,7 +859,7 @@
                                        <p>Body massage</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -877,7 +872,7 @@
                                        <p>Make-up basics as per skin types</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -890,7 +885,7 @@
                                        <p>Client management</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -917,8 +912,11 @@
                         <!--/ col-lg-->
                         <div class="col-lg-7 offset-lg-1 res-mt-5 my-auto">
                            <h3>
-                              hair
+                              Hair
                            </h3>
+                           <p>CERTIFICATE COURSE IN ADVANCED HAIR DESIGN </p>
+                           <p> Duration : 6 Month </p> 
+                           <p>This course is designed to give an in-depth knowledge on hair and scalp analysis. The first 3 months of the course comprises of the Foundation Course which includes the above-mentioned topics expertise The course further extends to train the student in hair design, hair colour, men's barbering, salon safety and professional development. </p> 
                         </div>
                         <!--/ col-lg-->
                      </div>
@@ -935,7 +933,7 @@
                                        <p>Shampooing and Conditioning</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -948,7 +946,7 @@
                                        <p>Oil Massages</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -961,7 +959,7 @@
                                        <p>Hair Spas</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -974,7 +972,7 @@
                                        <p>Blow Dry</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -997,7 +995,7 @@
                                        <p>Ironing</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1010,7 +1008,7 @@
                                        <p>Tonging</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1023,7 +1021,7 @@
                                        <p>Basic Hair Cuts</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1036,7 +1034,7 @@
                                        <p>Root Touch-Ups</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1063,9 +1061,10 @@
                         <!--/ col-lg-->
                         <div class="col-lg-7 offset-lg-1 res-mt-5 my-auto">
                            <h3>
-                              Corporate Makeup Course
+                              Corporate Makeup Look
                            </h3>
                            <p class="mt-3">Duration : 6 Days</p>
+                           <p>Makeup is an essential part of daily regime Knowledge of day makeup and evening makeup can be used to enhance and accentuate the facial features to make us appear more presentable. </p>
                         </div>
                         <!--/ col-lg-->
                      </div>
@@ -1082,7 +1081,7 @@
                                        <p>Color Wheel</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1105,7 +1104,7 @@
                                        <p>Foundation with concealing, Highlighting and Contouring.</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1135,6 +1134,7 @@
                               Personal Grooming
                            </h3>
                            <p class="mt-3">Duration : 12 Days</p>
+                          <P>Good grooming and keeping oneself neat and clean shows that a person has respect for himself/herself and the people he/she meets throughout the day. There are many aspects of grooming and personal hygiene including hair, nails, breath, body odour and clothing.</P>
                         </div>
                         <!--/ col-lg-->
                      </div>
@@ -1151,7 +1151,7 @@
                                        <p>Skills gained</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1164,7 +1164,7 @@
                                        <p>Basics of skincare</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1177,7 +1177,7 @@
                                        <p>Basics of Hair Care</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1190,7 +1190,7 @@
                                        <p>Basics of Makeup application</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1213,7 +1213,7 @@
                                        <p>Party makeup application</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1226,7 +1226,7 @@
                                        <p>Hair up styling</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1239,7 +1239,7 @@
                                        <p>Saree draping</p>
                                     </div>
                                     <div class="menu-item-price">
-                                       <p>&#8377;</p>
+                                       <p> </p>
                                     </div>
                                     <div class="menu-item-description">
                                        
@@ -1274,7 +1274,7 @@
       </a>
    </div>
    <!-- /logo -->
-   <p class="mt-3">All Rights reserved <a href="#">MARLIN</a></p>
+   <p class="mt-3">All Rights reserved <a href="<?= base_url()?>">MARLIN</a></p>
                </div>
                <!-- /credits -->
             </div>

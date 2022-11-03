@@ -23,17 +23,20 @@
                               <a class="nav-link" href="<?= base_url()?>">Home</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="<?= base_url('programmes')?>">programs</a>
+                              <a class="nav-link" href="<?= base_url('programs')?>">programs</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="<?= base_url('about-us')?>">About Us</a>
                            </li>
-                           <li class="nav-item">
+                           <!-- <li class="nav-item">
                               <a class="nav-link" href="<?= base_url('prices')?>">Prices</a>
-                           </li>
+                           </li> -->
                            <li class="nav-item">
                               <a class="nav-link" href="<?= base_url('contact')?>">Contact</a>
                            </li>
+                           <!-- <li class="nav-item">
+                              <a class="nav-link" href="<?= base_url('career')?>">Career</a>
+                           </li> -->
                            <!-- Default dropend button -->
                            <!-- <li class="nav-item dropend">
                               <a class="nav-link dropdown-toggle" href="#" id="sub-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -56,17 +59,33 @@
                </div>
                <!--/sidebar-nav -->
                <div class="navbar-info d-none d-xl-block">
-                  <p class="small-text"><i class="fas fa-phone margin-icon"></i>+91-928967022</p>
-                  <p class="small-text"><i class="fas fa-map-marker-alt margin-icon"></i>E/14 , Jhandewalan Extension , New Delhi-110055</p>
+                  <p class="small-text"><i class="fas fa-phone margin-icon"></i>+91-9289670222</p>
+                  <p class="small-text"><i class="fas fa-map-marker-alt margin-icon"></i>1E/14 , Jhandewalan Extension , New Delhi-110055</p>
                   <!--Social icons -->
                   <div class="social-media ">
-                     <a href="#" title=""><i class="fab fa-facebook"></i></a>
+                     <a href="https://www.facebook.com/MarlinBeautyAndWellnessAcademy" target="_blank" title=""><i class="fab fa-facebook"></i></a>
                      <a href="#" title=""><i class="fab fa-instagram"></i></a>
 					 <a href="#" title=""><i class="fab fa-yelp"></i></a>
-                     <a href="mailto:email@email.com" title=""><i class="fas fa-envelope"></i></a>
+                     <a href="mailto:info@merlin.com" title=""><i class="fas fa-envelope"></i></a>
                   </div>
                </div>
                <!-- /navbar-info -->
             </div>
             <!-- /affix-sidebar  -->
          </div>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="text-center text-uppercase text-success"></h2>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="text-center text-uppercase text-success"></h2>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="text-center text-uppercase text-success"></h2>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -52,19 +52,6 @@
           <?php
               include('common/sidebar.php')
            ?>
-               <!--/sidebar-nav -->
-               <div class="navbar-info d-none d-xl-block">
-                  <p class="small-text"><i class="fas fa-phone margin-icon"></i>13 456 890</p>
-                  <p class="small-text"><i class="fas fa-map-marker-alt margin-icon"></i>Street name 123 <br/> New York</p>
-                  <!--Social icons -->
-                  <div class="social-media ">
-                     <a href="#" title=""><i class="fab fa-facebook"></i></a>
-                     <a href="#" title=""><i class="fab fa-instagram"></i></a>
-					 <a href="#" title=""><i class="fab fa-yelp"></i></a>
-                     <a href="mailto:email@email.com" title=""><i class="fas fa-envelope"></i></a>
-                  </div>
-               </div>
-               <!-- /navbar-info -->
             </div>
             <!-- /affix-sidebar  -->
          </div>
@@ -99,6 +86,7 @@
             Marlin
          </h2>
          <p class="mt-4 lead">Marlin Beauty and Wellness Academy is a leading beauty training academy in India.</p>
+        
       </div>
       <!--/ col-lg-->
       <div class="col-lg-8 res-mt-5 offset-lg-1">
@@ -146,13 +134,12 @@
                <div class="accordion-item">
                   <h5 class="accordion-header" id="headingOne">
                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     Our Commitment to Safety
+                     Our Short Term Courses
                      </button>
                   </h5>
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                      <div class="accordion-body">
-                        <p>Aenean ut ex leo. Nulla faucibus turpis sit amet turpis mattis vestibulum et vel enim. <strong>Suspendisse magna magna, consectetur at erat non</strong> mattis aliquet elit. </p>
-                        <p>Fusce at nibh lacinia orci dictum euismod. Praesent vel nisl in quam commodo tristique.
+                        <p>Short-term courses train students in classic and creative hair styling, cuts, colour and makeup. This is a quick yet thorough way to get a good grasp O skills required to develop into an expert stylist.
                         </p>
                      </div>
                   </div>
@@ -166,8 +153,7 @@
                   </h5>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                      <div class="accordion-body">
-                        <p>Vivamus finibus lorem diam, sit amet facilisis tellus placerat Aliquam porttitor ut lectus eget imperdiet. Aenean ut ex leo. Nulla faucibus turpis sit amet turpis mattis vestibulum et vel enim. Suspendisse magna magna, consectetur at erat non, mattis aliquet elit. </p>
-                        <p>Fusce at nibh lacinia orci dictum euismod. Praesent vel nisl in quam commodo tristique.
+                        <p>Marlin Academy Glamour’s from Inside & Outside one of the world's leading training and education institutes that offers a multitude of courses across varied sectors.
                         </p>
                      </div>
                   </div>
@@ -181,9 +167,8 @@
                   </h5>
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                      <div class="accordion-body">
-                        <p>Vivamus finibus lorem diam, sit amet facilisis tellus placerat Aliquam porttitor ut lectus eget imperdiet. Aenean ut ex leo. Nulla faucibus turpis sit amet turpis mattis vestibulum et vel enim. Suspendisse magna magna, consectetur at erat non, mattis aliquet elit. </p>
-                        <p>Fusce at nibh lacinia orci dictum euismod. Praesent vel nisl in quam commodo tristique.
-                        </p>
+                        <p>They are groomed so hands-on experience on every subject so as to make them job-ready professionals who would succeed in the industry well that they can showcase their skills professionally in the beauty industry and be counted amongst some of the best stylists in the country. </p>
+                       
                      </div>
                   </div>
                </div>
@@ -197,7 +182,7 @@
                   </h5>
                   <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                      <div class="accordion-body">
-                        <p>Vivamus finibus lorem diam, sit amet facilisis tellus placerat Aliquam porttitor ut lectus eget imperdiet. Aenean ut ex leo. Nulla faucibus turpis sit amet turpis mattis vestibulum et vel enim. Suspendisse magna magna, consectetur at erat non, mattis aliquet elit. </p>
+                        <p>Marlin has a prime objective of bridging the Marlin Salon Experts train students and give gap between traditional methodologies of them in-depth knowledge about various teaching and training students to gain in de courses and make them capable enough to shine with opportunities. </p>
                      </div>
                   </div>
                </div>
@@ -210,9 +195,8 @@
             <h3>
                About Us
             </h3>
-            <p>
-Marlin Beauty and Wellness Academy is a leading beauty training academy in India. Headquartered in Delhi, Marlin offers industry-oriented training and certified beauty courses in cosmetology, hair care, beauty therapy, skin care, and makeup.</p>
-            <a href="<?= base_url('programmes')?>" class="btn btn-primary">Programmes</a>
+            <p>Today, Marlin Salon is defined by its commitment to be the Best Salon Chain for Hair happy customers is proof of that Marlin Professionals skilled in various aspects have honed the finesse through the valuable experience they gain backstage at the prestigious Marlin Fashion Week (LFW) Lakme Pro Stylist have been the trendsetters for a number of styles on the runway and Lakme Salon makes the latest fashion available to Indian women through the chain of salons.</p>
+            <a href="<?= base_url('Programs')?>" class="btn btn-primary">Programs</a>
          </div>
          <!--/ col-lg-->
       </div>
@@ -246,16 +230,10 @@ Marlin Beauty and Wellness Academy is a leading beauty training academy in India
             Our Philosophy
          </h4>
          <ul class="custom no-margin">
-            <li>Ibu lum orci eget, viverra elit. Aliquam erat volut pat phas ellus ac
-               sodales felis tiam non 
+            <li>The beauty industry is a vast one filled with opportunities across verticals. </li>
+            <li>Not only do people in today's day and age realise the value of grooming and getting styled, but also perceive the beauty industry as a glamorous one and one that has a number of exciting career options.
             </li>
-            <li>Erat volut pat phas ellu</li>
-            <li>Aliquam erat volut pat phas ellu Ibu lum orci eget, viverra elit. Aliquam erat volut pat phas ellus ac
-               sodales felis tiam non 
-            </li>
-            <li>Ibu lum orci eget, viverra elit. Aliquam erat volut pat phas ellus ac
-               sodales felis tiam non 
-            </li>
+            
          </ul>
       </div>
       <!--/ col-lg-->
@@ -273,7 +251,7 @@ Marlin Beauty and Wellness Academy is a leading beauty training academy in India
             <h2>
                Meet our Team
             </h2>
-            <p class="mt-4">Proin a mattis ligula quisque. Etiam ac neque sed risus sodales hendrerit vel ac diam.Ibu lum orci eget, viverra elit les hendrerit vel lorem ipsuet.</p>
+            <p class="mt-4">Marlin has a prime objective of bridging the Marlin Salon Experts train students and give gap between traditional methodologies of them in-depth knowledge about various teaching and training students to gain in de courses and make them capable enough to shine with opportunities. </p>
          </div>
          <!--/ col-lg-->
          <div class="mt-5">

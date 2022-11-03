@@ -1,5 +1,4 @@
 <!-- section -->
-
 <style>
 .google-maps {
     position: relative;
@@ -21,7 +20,7 @@
       <div class="col-xl-5">
          <!-- map-->
          <div class="google-maps">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14005.54630625018!2d77.19696938402119!3d28.64814155951438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd676fffffff%3A0x5a2b75443d46cef1!2sExcel%20Group!5e0!3m2!1sen!2sin!4v1665576691097!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14005.54630625018!2d77.19696938402119!3d28.64814155951438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd676fffffff%3A0x5a2b75443d46cef1!2sExcel%20Group!5e0!3m2!1sen!2sin!4v1665576691097!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
          </div>
       </div>
       <!-- /col-xl-->
@@ -52,7 +51,7 @@
                      <i class="fa fa-phone"></i>
                   </div>
                   <h6 class="mb-0">Phone</h6>
-                  <p class="mb-0">Number: <a href="tel:+91928967022">+91-928967022</a></p>
+                  <p class="mb-0">Number: <a href="tel:+919289670222">+91-9289670222</a></p>
                </div>
             </div>
             <!-- /contact-icon-->
@@ -66,7 +65,7 @@
                      <i class="fa fa-map-marker"></i>
                   </div>
                   <h6 class="mb-0">Address</h6>
-                  <p class="mb-0">E/14 , Jhandewalan Extension , New Delhi-110055</p>
+                  <p class="mb-0">1E/14 , Jhandewalan Extension , New Delhi-110055</p>
                </div>
             </div>
             <!-- /contact-icon-->
@@ -83,7 +82,7 @@
    <!-- Logo -->
    <div class="brand">
       <a href="<?= base_url()?>">
-      <img src="<?= base_url()?>assets/img/logo.png" alt="" class="img-fluid center-block" >
+      <img src="<?= base_url()?>assets/img/logo.png" alt="" class="img-fluid center-block">
       </a>
    </div>
    <!-- /logo -->

@@ -38,6 +38,9 @@
    <!-- ==== body starts ==== -->
    <body id="top">
 
+   <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v15.0" nonce="qg8vNxEW"></script>
+
       <!-- end demo_changer -->
       <!-- Preloader -->
       <div id="preloader">
@@ -78,7 +81,7 @@
    <div class="col-lg-6 h-100">
       <!-- box2 -->
       <div class="border-bottom h-50 img-grid border-grid-down">
-         <a href="<?= base_url('programmes')?>">
+         <a href="<?= base_url('programs')?>">
             <div class="box-effect col-lg-12 d-flex h-100 boxbg2 bg-overlay1" >
                <div class="text-center my-auto w-100">
                   <h2 class="m-0 text-grid">Programs</h2>
@@ -207,7 +210,7 @@
    <div class="row text-center mt-5">
       <div class="col-xl-12">
          <!-- button -->
-         <a href="<?= base_url('programmes')?>" class="btn btn-primary  btn-lg"> See All Programs </a>
+         <a href="<?= base_url('programs')?>" class="btn btn-primary  btn-lg"> See All Programs </a>
       </div>
       <!-- /col-xl -->
    </div>
@@ -247,6 +250,8 @@
          <h2>Why Choose Marlin for Career?</h2>
          <p class="mt-3 lead">We have top-of-the-line hair and makeup products, skilled stylists, and even a relaxing spa.</p>
          <p> At the Marlin Academy there are different courses to specialise in hairstyling and makeup. The curriculum is designed in a way that it would open up a number of job prospects in the fashion, beauty, film and entertainment field.</p>
+         
+         <p class="mt-3 lead"> At the Marlin Academy there are different courses to specialise in hairstyling and makeup. The curriculum is designed in a way that it would open up a number of job prospects in the fashion, beauty, film and entertainment field.</p>
         
       </div>
       <!--/ col-lg-->
@@ -317,6 +322,7 @@
             <span class="sub-header">questions</span>
             <h2>OUR FAQ</h2>
             <p class="lead">Marlin has a prime objective of bridging the Marlin Salon Experts train students and give gap between traditional methodologies of them in-depth knowledge about various teaching and training students to gain in de courses and make them capable enough to shine with opportunities. </p>
+            <p class="lead">We have top-of-the-line hair and makeup products, skilled stylists, and even a relaxing spa.</p>
            
          </div>
          <!-- /col-xl -->
@@ -412,6 +418,22 @@
    <!-- /inside-wrapper -->
 </section>
 <!-- /section ends -->
+
+<section class="inside-wrapper p-0">
+   <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+         <div class="col-md-6 mt-3">
+          <div class="fb-page" data-href="https://www.facebook.com/MarlinBeautyAndWellnessAcademy" data-tabs="timeline" data-width="1200" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MarlinBeautyAndWellnessAcademy" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MarlinBeautyAndWellnessAcademy">VCampus Global Education</a></blockquote></div>
+         </div>
+
+         <div class="col-md-3"></div>
+
+      </div>
+      <!-- /row -->
+   </div>
+   <!-- /container -->
+</section>
 
 <?php
      include('common/footer.php')
