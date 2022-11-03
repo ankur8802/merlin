@@ -37,7 +37,7 @@
                      <i class="fa fa- fa-envelope"></i>
                   </div>
                   <h6 class="mb-0">Email</h6>
-                  <p class="mb-0">Email address: <a href="mailto:info@merlin.com">info@marlin.com</a></p>
+                  <p class="mb-0">Email address: <a href="mailto:hr@marlin.org.in">hr@marlin.org.in</a></p>
                </div>
             </div>
             <!-- /contact-icon-->
