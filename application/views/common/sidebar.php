@@ -1,4 +1,4 @@
- <div id="sidebar" class="split col-md-2" style="zoom:1.3">
+ <div id="sidebar" class="split col-md-2">
             <div class="affix-sidebar col-md-12">
                <div class="sidebar-nav">
                   <nav class="navbar container navbar-default navbar-expand-xl g-0">

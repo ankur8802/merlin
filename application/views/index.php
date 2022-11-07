@@ -153,7 +153,7 @@
       <!-- card --> 
       <div class="col-lg-6 card-service-collumn">
          <div class="card-service bg-1 border-bottom">
-            <a href="<?= base_url('prices')?>">
+            <a href="<?= base_url('program-details')?>">
                <div class="txt">
                   <h4>Cosmetology</h4>
                </div>
@@ -166,7 +166,7 @@
       <!-- card --> 
       <div class="col-lg-6 card-service-collumn">
          <div class="card-service bg-2 border-bottom">
-            <a href="<?= base_url('prices')?>">
+            <a href="<?= base_url('program-details')?>">
                <div class="txt">
                   <h4>hair</h4>
                </div>
@@ -182,7 +182,7 @@
       <!-- card --> 
       <div class="col-lg-6 card-service-collumn">
          <div class="card-service bg-3 border-bottom">
-            <a href="<?= base_url('prices')?>">
+            <a href="<?= base_url('program-details')?>">
                <div class="txt">
                   <h4>Beauty Therapy</h4>
                </div>
@@ -195,7 +195,7 @@
       <!-- card --> 
       <div class="col-lg-6 card-service-collumn">
          <div class="card-service bg-4 border-bottom">
-            <a href="<?= base_url('prices')?>">
+            <a href="<?= base_url('program-details')?>">
                <div class="txt">
                   <h5>Skin</h5>
                </div>
