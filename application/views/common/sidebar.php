@@ -28,6 +28,9 @@
                            <li class="nav-item">
                               <a class="nav-link" href="<?= base_url('about-us')?>">About Us</a>
                            </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="<?= base_url('verticals')?>">Verticals</a>
+                           </li>
                            <!-- <li class="nav-item">
                               <a class="nav-link" href="<?= base_url('program-details')?>">Prices</a>
                            </li> -->
@@ -64,6 +67,7 @@
                   <!--Social icons -->
                   <div class="social-media ">
                      <a href="https://www.facebook.com/MarlinBeautyAndWellnessAcademy" target="_blank" title=""><i class="fab fa-facebook"></i></a>
+                     <a href="https://www.instagram.com/marlin_academy_/" target="_blank" title=""><i class="fab fa-instagram"></i></a>
                      <a href="https://twitter.com/MarlinAcademy" target="_blank" title=""><i class="fab fa-twitter"></i></a>
 					 <a href="https://www.linkedin.com/company/marlin-beauty-and-wellness-academy/" target="_blank" title=""><i class="fab fa-linkedin"></i></a>
                      <a href="mailto:hr@marlin.org.in" title=""><i class="fas fa-envelope"></i></a>
