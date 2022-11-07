@@ -37,4 +37,8 @@ function Career()
 {
    $this->load->view('career');	
 }
+function verticals()
+{
+   $this->load->view('verticals');	
+}
 }

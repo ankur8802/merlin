@@ -790,10 +790,15 @@ Table of Contents
      box-shadow: -2px 0px 20px rgb(255 255 255 / 57%)!important;
 }
 /* social media */
- .social-media i {
+ /* .social-media i {
      font-size: 20px;
      padding: 10px;
      margin: 0px;
+} */
+.social-media i {
+    font-size: 20px;
+    padding: 9px;
+    margin: 0px;
 }
  .social-media i:hover {
      color: #cecece;

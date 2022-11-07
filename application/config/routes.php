@@ -61,3 +61,4 @@ $route['(?i)contact'] = 'Welcome/contact';
 $route['(?i)send-us-a-message'] = 'Welcome/send_us_a_message'; 
 $route['(?i)apply-job'] = 'Welcome/apply_job'; 
 $route['(?i)career'] = 'Welcome/Career'; 
+$route['(?i)verticals'] = 'Welcome/verticals'; 
