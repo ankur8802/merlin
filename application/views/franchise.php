@@ -10,7 +10,7 @@
       <!--[if lt IE 9]>
       <script src="js/respond.js"></script>
       <![endif]-->
-      <!-- Font files -->
+      <!-- Font files -->`
 
       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i%7CMuli:400,700&amp;display=swap" rel="stylesheet">
 
@@ -20,6 +20,7 @@
       <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
       <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
       <!-- Bootstrap core CSS -->
       <link href="<?= base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">
       <!-- style CSS -->
@@ -33,10 +34,12 @@
 	   <!-- Switcher Only -->
       <link rel="stylesheet" id="switcher-css" type="text/css" href="<?= base_url()?>assets/css/switcher.css" media="all" />
       <!-- END Switcher Styles -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-
 <style>
-    .swal-modal
+   .btn:hover
+   {
+       color:#fff!important;
+   }
+      .swal-modal
     {
         background-color:#000;
         border:1px solid #fff;
@@ -96,11 +99,25 @@
     {
         color:#000!important;
     }
-</style>
 
+ .ulplus {
+    list-style: none;
+}
+
+.ulplus li:before {
+    content: '\2713';
+    margin-right: 4px;
+}
+
+</style>
    </head>
    <!-- ==== body starts ==== -->
    <body id="top">
+
+   <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v15.0" nonce="qg8vNxEW"></script>
+
+      <!-- end demo_changer -->
       <!-- Preloader -->
       <div id="preloader">
 	     <img src="<?= base_url()?>assets/img/logo.png" alt="" class="preloader-logo img-fluid center-block" >
@@ -110,29 +127,26 @@
             <div class="bounce3"></div>
          </div>
       </div>
+      
       <!-- ===== Page Content ===== -->
       <div class="container-fluid">
          <!-- ===== Sidebar starts ===== -->
-        <?php
+           <?php
               include('common/sidebar.php')
            ?>
-            </div>
-            <!-- /affix-sidebar  -->
-         </div>
          <!-- ===== / sidebar ends ===== -->
-        <!-- ===== / sidebar ends ===== -->
 <div id="content" class="col-lg-10 split">
-<!-- =====  page starts  ===== -->
-<div class="content-wrapper">
+<!-- ===== home page starts  ===== -->
+
 <!-- page header -->
 <div class="page-header bg-overlay1 container-fluid border-bottom" >
    <div class="col-xl-6 offset-xl-3">
-      <h1>Contact</h1>
+      <h3>Partner With Us</h3>
       <!-- /breadcrumb -->
       <nav aria-label="breadcrumb">
          <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="<?= base_url()?>">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            <li class="breadcrumb-item active" aria-current="page">Partner With Us</li>
          </ol>
       </nav>
       <!-- /breadcrumb -->
@@ -140,66 +154,98 @@
    <!-- /col-xl -->
 </div>
 <!-- /page-header ends -->
-<div class="content-box container">
-<!-- section -->
-<section class="inside-wrapper container">
-   <div class="row h-10">
-      <div class="col-xl-6">
-         <span class="sub-header">contact</span>
-         <h2>Get in Touch
-         </h2>
-         <p class="mb-5">We pay attention to every little detail to make your visit comfortable. It's a pleasure to join our beauty and fashion course.</p>
-         <div class="col-md-12 text-lg-start text-center">
-            <div class="contact-icon my-auto">
-               <div class="contact-icon-info">
-                  <!---icon-->
-                  <div class="top-icon">
-                     <i class="fa fa- fa-envelope"></i>
-                  </div>
-                  <h6 class="mb-0">Email</h6>
-                  <p class="mb-0">Email address: <a href="mailto:hr@marlin.org.in">hr@marlin.org.in</a></p>
-               </div>
-            </div>
-            <!-- /contact-icon-->
-         </div>
-         <!-- /col-md-->
-         <div class="col-md-12 mt-4 my-auto text-lg-start text-center">
-            <div class="contact-icon my-auto">
-               <div class="contact-icon-info">
-                  <!---icon-->
-                  <div class="top-icon">
-                     <i class="fa fa-phone"></i>
-                  </div>
-                  <h6 class="mb-0">Phone</h6>
-                  <p class="mb-0">Number: <a href="tel:+91-9289670222">+91-9289670222</a></p>
-               </div>
-            </div>
-            <!-- /contact-icon-->
-         </div>
-         <!-- /col-md-->
-         <div class="col-md-12 mt-4 my-auto text-lg-start text-center">
-            <div class="contact-icon my-auto">
-               <div class="contact-icon-info ">
-                  <!---icon-->
-                  <div class="top-icon">
-                     <i class="fa fa-map-marker"></i>
-                  </div>
-                  <h6 class="mb-0">Address</h6>
-                  <p class="mb-0">E/14 , Jhandewalan Extension , New Delhi-110055</p>
-               </div>
-            </div>
-            <!-- /contact-icon-->
-         </div>
-         <!-- /col-md-->
+
+<div id="bg-home" class="bg-overlay2 content-wrapper">
+
+
+<div class="text-center mt-5 p-5 pb-0"><span class="sub-header">Reflect Your Beauty</span>
+   <h2>Partner With Us</h2>
+   <p>The Beauty Marlin's mission is to transform lives by making euphoria and artistry accessible to both women and men. The Beauty Marlin brand has become synonymous with health and beauty in Indian habitation.</p>
+</div>
+
+
+<section class="p-0 m-4">
+       <div class="row">
+
+
+           <div class="col-md-6 mt-4">
+                <div class="border p-2 m-2 rounded h-100">
+                   <h4 class="text-center mt-2 text-secondary"> Affiliate Benefits- </h4>
+                   <ul class="ulplus">
+                      <li> Connections with long-established groups </li>
+                      <li> A bouquet of over 100 courses </li>
+                      <li> Complete operational know-how, Recruitment and training assistance </li>
+                      <li> Quality assurance </li>
+                      <li> Marketing support </li>
+                      <li> Student internships and placement assistance </li>
+                      <li> Profitable and suitable investment </li>
+                      <li> Opportunity to participate in sponsored skill development projects </li>
+                   </ul>
+                </div>
+           </div>
+           
+           <div class="col-md-6 mt-4">
+                <div class="border p-2 m-2 rounded h-100">
+                   <h4 class="text-center mt-2 text-secondary">Pre-launch support</h4>
+                   <ul class="ulplus">
+                      <li>Site Selection </li>
+                      <li>Infrastructure setup guidelines</li>
+                      <li>Assistance in Staff selection and training</li>
+                      <li>Institute launch plan</li>
+                      <li>Standardized marketing and sales kits</li>
+                   </ul>
+                </div>
+           </div>
+
+           <div class="col-md-6 mt-4">
+                <div class="border p-2 m-2 rounded h-100">
+                   <h4 class="text-center mt-2 text-secondary"> Operational support-establish automation </h4>
+                   <ul class="ulplus">
+                      <li> Business plans and reviews </li>
+                      <li>Seminars and workshops</li>
+                      <li>New courses and related training</li>
+                      <li>Sales training</li>
+                      <li>Research institute visit</li>
+                      <li>Student kit and courseware</li>
+                      <li>Student internship</li>
+                      <li>Certification</li>
+                   </ul>
+                </div>
+           </div>
+
+           <div class="col-md-6 mt-4">
+                <div class="border p-2 m-2 rounded h-100">
+                   <h4 class="text-center mt-2 text-secondary"> Requirements-  </h4>
+                   <ul class="ulplus">
+                      <li>Minimum requirement 2000 sqm commercial space (lease/own)</li>
+                      <li>Ability to invest at least Rs 40 lakh</li>
+                      <li>Willingness to pursue business as a full-time occupation</li>
+                   </ul>
+                </div>
+           </div>
+
+           
+
+
+       </div>
+</section>
+
+
+<!-- 4th row-->
+<div id="home-grid" class="m-5">
+
+  <div class="row">
+
+      <div class="col-md-12">
+           <h2 class="text-center">Partnership Form</h2>
       </div>
-      <!-- /col-xl-->
-      <div class="offset-xl-1 col-xl-5 res-mt-5 my-auto">
-         <h4 class="mb-5">Send us a Message</h4>
-         <!-- contact info -->
-         <div class="contact-info">
-            <div id="error-message"></div>
-            <!-- Form Starts -->
-            <form action="https://formsubmit.co/5bc201a53a6636ee748134016298bd56" id="contact_form" method="post">
+
+      <div class="col-md-4">
+         <img src="<?= base_url()?>assets/img/features.jpg" class="w-100 h-100 rounded" alt="">
+      </div>
+  
+      <div class="col-md-8">
+      <form action="https://formsubmit.co/5bc201a53a6636ee748134016298bd56" id="contact_form" method="post">
                <div class="form-group">
                   <!-- row -->
                   <div class="col-md-12">
@@ -214,77 +260,39 @@
 
                      <div class="col-md-12 mt-4">
                         <input type="email" name="email" class="form-control input-field" placeholder="Email"> 
-                        <input type="hidden" name="_next" value="<?= base_url('send-us-a-message')?>">
+                        <input type="hidden" name="_next" value="<?= base_url('franchise-success')?>">
                         <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_subject" value="Send us a Message">
+                        <input type="hidden" name="_subject" value="Franchise">
                      </div>
 
                      <div class="col-md-12 mt-4">
-                        <input type="input" name="preferable_time_to_call_back" class="form-control input-field datepicker" placeholder="Preferable Time to Call Back" required> 
+                        <input type="input" name="Available_Floor_Space" class="form-control input-field" placeholder="Minimum Space required (1500 sq ft)" required> 
                      </div>
 
                      <div class="col-md-12 mt-4">
-                        <input type="text" name="subject" class="form-control input-field" placeholder="Subject" required> 
+                        <input type="number" min="3000000" name="investment_amount" class="form-control input-field" placeholder="The minimum investment amount required is 30L+" required> 
                      </div>
 
                      <div class="col-md-12 mt-4">
-                        <textarea name="message" id="message" placeholder="Your Message*" class="textarea-field form-control" rows="3"  required></textarea>
+                        <textarea name="message" id="message" placeholder="Comments" class="textarea-field form-control" rows="3"></textarea>
                      </div>
 
                   </div>
                   <!-- /row -->
-                  <button type="submit" id="submit_btn" value="Submit" class="btn btn-primary mt-4">Send message</button>
+                  <button type="submit" id="submit_btn" value="Submit" class="btn btn-primary mt-4">Apply For Partnership <i class="fa-solid fa-handshake-simple"></i></button>
                </div>
                <!-- Contact results -->
                <div id="contact_results"></div>
             </form>
-            <!-- /contact-form -->
-         </div>
-         <!-- /contact-info -->
       </div>
-      <!-- /offset-col-->
-   </div>
-   <!-- /row-->
-</section>
-<!-- /section ends -->
-<!-- map -->
-<div class="col-md-12 res-mt-5 border-top mb-5">
+       
+  </div>
 
-<style>
-.google-maps {
-    position: relative;
-    padding-bottom: 50%;
-    height: 0;
-    overflow: hidden;
-    height:100%;
-}
-.google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height:100% !important;
-}
-</style>
-
-    <!-- map-->
-         <div class="google-maps">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14005.54630625018!2d77.19696938402119!3d28.64814155951438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd676fffffff%3A0x5a2b75443d46cef1!2sExcel%20Group!5e0!3m2!1sen!2sin!4v1665576691097!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
 </div>
-<!-- /col-md -->
-<!-- Credits -->
-<div class="credits text-center p-3 pt-0">
-   <!-- Logo -->
-   <div class="brand">
-      <a href="index.html">
-      <img src="<?= base_url()?>assets/img/logo.png" alt="" class="img-fluid center-block" >
-      </a>
-   </div>
-   <!-- /logo -->
-    <p class="mt-3">All Rights reserved <a href="<?= base_url()?>">MARLIN</a></p>
-               </div>
-               <!-- /credits -->
+
+<?php
+     include('common/footer.php')
+?>
             </div>
             <!-- /content-box -->
 			</div>
@@ -308,12 +316,10 @@
 <!-- Bootstrap Select Tool (For Module #4) -->
 <script src="<?= base_url()?>assets/js/bootstrap-select.js"></script>
 <!-- All Scripts & Plugins -->
-<script src="<?= base_url()?>assets/js/dmss.js"></script>
-<!-- <script src="<?= base_url()?>assets/js/map.js"></script>	   -->
-<script src="<?= base_url()?>assets/js/contact.js"></script>
-
+<script src="<?= base_url()?>assets/js/dmss.js"></script><!-- Open Street maps -->
+<script src="<?= base_url()?>assets/js/map.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
 
 <?php
    if($this->session->flashdata('success'))
@@ -358,16 +364,5 @@
    
 ?>
 
-<script>
-        $(".datepicker").flatpickr({
-            enableTime: true,
-            noCalendar: true,
-            dateFormat: "H:i",
-            minTime: "10:30",
-            maxTime: "18:30",
-        });
-</script>
-
 </body>
-
 </html>

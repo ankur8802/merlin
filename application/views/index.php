@@ -119,11 +119,11 @@
          </div>
          <!--/ col-lg-->
          <div class="col-lg-5 p-5  my-auto">
-            <span class="sub-header">hello there</span>
+            <span class="sub-header">It’s Your Time To Glow</span>
             <h2>
-               Welcome to Marlin
+               Welcome To The Beauty Marlin
             </h2>
-            <p>Marlin is one of the top beauty brands in India.  Marlin Academy that specialises in training individuals to become successful across sectors. Here you will be greeted by our team of experts who are here to provide you with a luxurious experience.</p>
+            <p>The Beauty Marlin is one of India's top beauty brands. The Beauty Marlin Academy specializes in successfully training individuals in a variety of industries. Here, you are greeted by a team of experts who are here to provide you with a luxurious experience.</p>
             <!-- button -->
             <a href="<?= base_url('about-us')?>" class="btn btn-primary">About us</a>
          </div>
@@ -138,12 +138,14 @@
 <section class="inside-wrapper container">
    <div class="row">
       <div class="col-xl-7 offset-xl-3 text-center my-auto">
-         <span class="sub-header">GET GROMED BY BEAUTY EXPERTS</span>
+         <span class="sub-header">Beauty Marlin Empowers You</span>
          <h2>
             Our Services
          </h2>
-        <strong> “Become a trendsetter and climb up the success ladder!“ </strong><br>
-        <p class="mt-3"> Marlin Academy that specialises in training individuals to become successful across sectors. Hair Care, Makeup and Skin Care professionals.  </p>
+        <strong> “Be a trendsetter and climb the ladder of success!”  </strong><br>
+        <p class="mt-3"> The Beauty Marlin Academy specializes in the successful training of individuals across industries.  </p>
+        <p class="mt-3"> The Beauty Marlin Academy is into beauty training in India. Beauty Marlin Academy  offers certified courses in :-  </p>
+
       </div>
       <!-- /col-xl -->
    </div>
@@ -168,7 +170,7 @@
          <div class="card-service bg-2 border-bottom">
             <a href="<?= base_url('program-details')?>">
                <div class="txt">
-                  <h4>hair</h4>
+                  <h4>Hair Care</h4>
                </div>
                <!-- link --> 
                <p class="more-link">more</p>
@@ -178,6 +180,7 @@
       <!-- /card ends --> 
    </div>
    <!-- /row -->
+   
    <div class="row g-5 mt-5 no-mt-xs">
       <!-- card --> 
       <div class="col-lg-6 card-service-collumn">
@@ -197,7 +200,7 @@
          <div class="card-service bg-4 border-bottom">
             <a href="<?= base_url('program-details')?>">
                <div class="txt">
-                  <h5>Skin</h5>
+                  <h5>Skin Care</h5>
                </div>
                <!-- link --> 
                <p class="more-link">more</p>
@@ -206,6 +209,7 @@
       </div>
       <!-- /card ends --> 
    </div>
+           <p class="mt-3 text-center"> The  courses are designed to prepare students for exciting careers in industries like Beauty, Fashion, Film and Entertainment. </p>
    <!-- /row -->
    <div class="row text-center mt-5">
       <div class="col-xl-12">
@@ -226,10 +230,11 @@
          </div>
          <!--/ about-home-->
          <div class="col-xl-6 bg-primary p-6 ">
+         <span class="sub-header" style="color:#000!important;">Glitter Inside And Out </span>
             <h3 class="text-dark">GLAM UP YOUR CAREER </h3>
-            <p class="lead text-dark">"Learn From The Stars Behind The Show!"<br> We have been in business for over 30 years. This longevity is a testament to the quality we provide. </p>
+            <p class="lead text-dark">"Learn From The Stars Behind The Show!" </p>
             <p class="text-dark">
-            Marlin Academy trains aspiring students and helps them gain essential skills in order to make a successful career in the exciting field of glamour. Professionals in the field hone their skills so as to make them the best stylists in the industry    
+            The Beauty Marlin Academy educates ambitious students and helps them acquire the skills essential for a successful career in an exciting and fascinating field. Experts in this field hone their skills to become the best stylists in the business. 
            </p>
             <!-- button -->
             <a href="<?= base_url('about-us')?>" class="btn btn-secondary">More Info</a>
@@ -246,12 +251,12 @@
    <!-- row -->
    <div class="row h-10">
       <div class="col-lg-6 my-auto">
-         <span class="sub-header">LET YOUR CAREER MAKE A STYLISH STATEMENT</span>
-         <h2>Why Choose Marlin for Career?</h2>
-         <p class="mt-3 lead">We have top-of-the-line hair and makeup products, skilled stylists, and even a relaxing spa.</p>
-         <p> At the Marlin Academy there are different courses to specialise in hairstyling and makeup. The curriculum is designed in a way that it would open up a number of job prospects in the fashion, beauty, film and entertainment field.</p>
+         <span class="sub-header">Let Your Career Make A Stylish Statement </span>
+         <h2>Why Choose Beauty Marlin For Career?</h2>
+         <p class="mt-3 lead">We offer top-class certified beauty courses. The Beauty Merlin Academy offers a range of courses specializing in hairstyling, skin, nails, cosmetology, beauty therapy, and all makeup styles. The curriculum is designed to open up a wide range of career possibilities in fashion, beauty, film and entertainment.</p>
          
-         <p class="mt-3 lead"> At the Marlin Academy there are different courses to specialise in hairstyling and makeup. The curriculum is designed in a way that it would open up a number of job prospects in the fashion, beauty, film and entertainment field.</p>
+         <p class="mt-3 lead"> <strong class="text-secondary"> Quality is key- </strong> The Beauty Marlin is India's leading beauty brand, offering standard certification courses. All of our makeup courses are done using cutting-edge methods that respect Indian women and their careers. </p>
+         <p class="mt-3 lead"> <strong class="text-secondary"> HUGE SELECTION - </strong> Beauty Marlin has everything a girl could want. </p>
         
       </div>
       <!--/ col-lg-->
@@ -315,7 +320,7 @@
 </section>
 <!-- /section ends -->
 <!-- section-->
-<section class="border-top">
+<!-- <section class="border-top">
    <div class="inside-wrapper container">
       <div class="row">
          <div class="col-xl-5 my-auto">
@@ -325,11 +330,8 @@
             <p class="lead">We have top-of-the-line hair and makeup products, skilled stylists, and even a relaxing spa.</p>
            
          </div>
-         <!-- /col-xl -->
          <div class="col-xl-6 offset-xl-1">
-            <!--accordion -->		
             <div class="accordion mt-5" id="accordionExample">
-               <!--accordion item -->
                <div class="accordion-item">
                   <h5 class="accordion-header" id="headingOne">
                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -344,7 +346,6 @@
                      </div>
                   </div>
                </div>
-               <!--accordion item -->
                <div class="accordion-item">
                   <h5 class="accordion-header" id="headingTwo">
                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -359,7 +360,6 @@
                      </div>
                   </div>
                </div>
-               <!--accordion item -->
                <div class="accordion-item">
                   <h5 class="accordion-header" id="headingThree">
                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
@@ -374,8 +374,7 @@
                      </div>
                   </div>
                </div>
-               <!--/accordion item -->
-               <!--accordion item -->
+            
                <div class="accordion-item">
                   <h5 class="accordion-header" id="headingFour">
                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
@@ -388,16 +387,12 @@
                      </div>
                   </div>
                </div>
-               <!--accordion item -->
             </div>
-            <!--/accordion -->
          </div>
-         <!-- /col-xl -->
       </div>
-      <!-- /row -->
    </div>
-   <!-- /container -->
-</section>
+</section> -->
+
 <!-- /section ends -->
 <!-- section -->
 <section class="call-to-action1 container-fluid parallax">
@@ -405,8 +400,9 @@
       <div class="row">
          <div class="card col-xl-7 text-center p-5 color-outline">
             <div class="card-body">
-               <h3>Make an Appointment</h3>
-               <p class="card-text mt-4">Fusce at nibh lacinia orci dictum euismod. Praesent vel nisl in quam commodo tristique.</p>
+               <span class="sub-header"> Discover Your Beauty </span>
+               <h3> Make An Appointment </h3>
+               <p class="card-text mt-4">“Your ambition has been recognized worldwide”</p>
                <a href="<?= base_url('contact')?>" class="btn btn-primary">Contact Us</a>
             </div>
             <!--/card-body-->

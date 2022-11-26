@@ -26,9 +26,9 @@
       <!-- /col-xl-->
       <div class="col-xl-6 offset-xl-1 my-auto">
          <span class="sub-header res-mt-5">contact</span>
-         <h2>Get in Touch
+         <h2>Get In Touch
          </h2>
-         <p class="mb-5">We pay attention to every little detail to make your visit comfortable, so please get in touch to book the treatments that feel right for you.</p>
+         <p class="mb-5">We pay attention to every little detail to make your visit comfortable. It's a pleasure to join our beauty and fashion course.</p>
          <div class="col-md-12 text-lg-start text-center">
             <div class="contact-icon my-auto">
                <div class="contact-icon-info">

@@ -31,6 +31,17 @@
 	   <!-- Switcher Only -->
       <link rel="stylesheet" id="switcher-css" type="text/css" href="<?= base_url()?>assets/css/switcher.css" media="all" />
       <!-- END Switcher Styles -->
+
+<style>
+ .ulplus {
+    list-style: none;
+}
+
+.ulplus li:before {
+    content: '\2713';
+    margin-right: 4px;
+}
+</style>
    </head>
    <!-- ==== body starts ==== -->
    <body id="top">    
@@ -61,12 +72,12 @@
 <!-- page header -->
 <div class="page-header bg-overlay1 container-fluid border-bottom" >
    <div class="col-xl-6 offset-xl-3">
-      <h1>Our Services</h1>
+      <h1>Programs</h1>
       <!-- /breadcrumb -->
       <nav aria-label="breadcrumb">
          <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="<?= base_url()?>">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Our Services</li>
+            <li class="breadcrumb-item active" aria-current="page">Programs</li>
          </ol>
       </nav>
       <!-- /breadcrumb -->
@@ -84,13 +95,26 @@
          <h2>
             Excellence & Quality
          </h2>
-         <p class="mt-4">Make your glamorous dream a reality through excellent training and brilliant hands-on experience right here as Lakme! </p>
+         <p class="mt-4"> We pride ourselves on the personalized options for the courses we offer; Realize your glamorous dreams through excellent training and great hands-on experience with Beauty Marlin.</p>
+         <p class="mt-4"> Start your dream career as a beauty and health professional. Find courses and get certified in makeup, hair, nails, aesthetics, therapy and more. </p>
+         <p class="mt-4 text-secondary"> Commitment to quality</p>
          
       </div>
       <!--/ col-lg-->
       <div class="col-lg-6 offset-lg-1 res-mt-5 my-auto">
          <!-- image -->
-         <img class="img-fluid color-outline" src="<?= base_url()?>img/about/about.jpg" alt="" >
+         <img class="img-fluid color-outline" src="<?= base_url()?>assets/img/about/about.jpg" alt="" >
+      </div>
+      <!--/ col-lg-->
+      <!--/ col-lg-->
+      <div class="col-lg-12">
+         <!-- image -->
+         <p>The Beauty Marlin is a beauty, and his institute is committed to applying the highest standards of qualitative practice in all areas of student development and serving clients through:</p>
+         <ul class="ulplus">
+             <li class="text-secondary"> First-class infrastructure </li>
+             <li class="text-secondary"> Trained and continuously updated faculties </li>
+             <li class="text-secondary"> Market benchmarks for service offerings </li>
+         </ul>
       </div>
       <!--/ col-lg-->
    </div>
@@ -127,7 +151,7 @@
          <div class="card-service bg-3 border-bottom">
             <a href="<?= base_url('program-details')?>">
                <div class="txt">
-                  <h5>Hair</h5>
+                  <h5>Hair Care</h5>
                </div>
                <!-- link --> 
                <p class="more-link">more</p>
@@ -143,7 +167,7 @@
          <div class="card-service bg-4 border-bottom">
             <a href="<?= base_url('program-details')?>">
                <div class="txt">
-                  <h5>Skin</h5>
+                  <h5>Skin Care</h5>
                </div>
                <!-- link --> 
                <p class="more-link">more</p>

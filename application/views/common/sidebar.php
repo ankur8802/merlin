@@ -31,6 +31,12 @@
                            <li class="nav-item">
                               <a class="nav-link" href="<?= base_url('verticals')?>">Verticals</a>
                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="<?= base_url('blogs')?>">Blogs</a>
+                           </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="<?= base_url('franchise')?>">Partner With Us</a>
+                           </li>
                            <!-- <li class="nav-item">
                               <a class="nav-link" href="<?= base_url('program-details')?>">Prices</a>
                            </li> -->

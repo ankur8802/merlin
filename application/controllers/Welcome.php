@@ -41,4 +41,22 @@ function verticals()
 {
    $this->load->view('verticals');	
 }
+function blogs()
+{
+   $this->load->view('blogs');	
+}
+function blog_detail($id)
+{
+    $this->load->view('blog-detail');
+}
+function franchise()
+{
+    $this->load->view('franchise');
+}
+function franchise_success()
+{
+  $this->session->set_flashdata('success','Your application has been submitted successfully');
+   redirect('franchise');
+}
+
 }

@@ -38,7 +38,7 @@
    <body id="top">
       <!-- Preloader -->
       <div id="preloader">
-	     <img src="<?= base_url()?>assets/img/logo.png" alt="" class="preloader-logo img-fluid center-block" >
+	     <img src="<?= base_url()?>img/logo.png" alt="" class="preloader-logo img-fluid center-block" >
          <div class="spinner">		
             <div class="bounce1"></div>
             <div class="bounce2"></div>
@@ -48,13 +48,14 @@
       <!-- ===== Page Content ===== -->
       <div class="container-fluid">
          <!-- ===== Sidebar starts ===== -->
-        <?php
+          <?php
               include('common/sidebar.php')
            ?>
             </div>
             <!-- /affix-sidebar  -->
          </div>
          <!-- ===== / sidebar ends ===== -->
+        <!-- ===== / sidebar ends ===== -->
         <div id="content" class="col-lg-10 split">
 <!-- ====== page starts  ===== -->
 <div class="content-wrapper">
@@ -81,12 +82,6 @@
          <div class="row">
             <div class="col-xl-12">
                <!--nav tabs -->
-<style>
-  .nav-item
-  {
-        zoom:0.7;
-  }
-</style>
                <ul class="nav nav-tabs  border-top border-bottom justify-content-center" id="pills-tab2" role="tablist">
                   <li class="nav-item" role="presentation">
                      <button class="nav-link active" id="1-tab" data-bs-toggle="pill" data-bs-target="#tab1" type="button" role="tab"  aria-selected="true">Cosmetology</button>

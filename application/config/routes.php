@@ -62,3 +62,7 @@ $route['(?i)send-us-a-message'] = 'Welcome/send_us_a_message';
 $route['(?i)apply-job'] = 'Welcome/apply_job'; 
 $route['(?i)career'] = 'Welcome/Career'; 
 $route['(?i)verticals'] = 'Welcome/verticals'; 
+$route['(?i)blogs'] = 'Welcome/blogs'; 
+$route['(?i)franchise'] = 'Welcome/franchise'; 
+$route['(?i)franchise-success'] = 'Welcome/franchise_success'; 
+$route['(?i)blog-detail/(:any)'] = 'Welcome/blog_detail/$1'; 

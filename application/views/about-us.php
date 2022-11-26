@@ -34,6 +34,12 @@
 	   <!-- Switcher Only -->
       <link rel="stylesheet" id="switcher-css" type="text/css" href="<?= base_url()?>assets/css/switcher.css" media="all" />
       <!-- END Switcher Styles -->
+      <style>
+        .text-justify
+        {
+            text-align:justify;
+        }
+      </style>
    </head>
    <!-- ==== body starts ==== -->
    <body id="top">
@@ -81,9 +87,9 @@
 <section class="inside-wrapper container">
    <div class="row h-10">
       <div class="col-lg-3 my-auto">
-         <span class="sub-header">The Academic</span>
+         <span class="sub-header">Reflect Your Beauty</span>
          <h2>
-            Marlin
+            The Beauty Marlin 
          </h2>
          <p class="mt-4 lead">Marlin Beauty and Wellness Academy is a leading beauty training academy in India.</p>
         
@@ -124,7 +130,7 @@
 </section>
 <!-- /section ends-->
 <!-- section -->
-<section class="bg-light">
+<section class="bg-light" style="display:none;">
    <div class="inside-wrapper container">
       <div class="row">
          <div class="col-lg-6">
@@ -195,7 +201,7 @@
             <h3>
                About Us
             </h3>
-            <p>Today, Marlin Salon is defined by its commitment to be the Best Salon Chain for Hair happy customers is proof of that Marlin Professionals skilled in various aspects have honed the finesse through the valuable experience they gain backstage at the prestigious Marlin Fashion Week (LFW) Lakme Pro Stylist have been the trendsetters for a number of styles on the runway and Lakme Salon makes the latest fashion available to Indian women through the chain of salons.</p>
+            <p>Today, Marlin Academy is defined by its commitment to be the Best Salon Chain for happy customers is proof of that Marlin Professionals are skilled in various aspects that have honed the finesse through the valuable experience they gain for a number of styles on the runway and makes the latest fashion available to Indian women through the chain of salons.</p>
             <a href="<?= base_url('Programs')?>" class="btn btn-primary">Programs</a>
          </div>
          <!--/ col-lg-->
@@ -209,10 +215,14 @@
 <section class="inside-wrapper container">
    <div class="row bg-light">
       <div class="col-lg-6 p-5 my-auto ">
-         <h4>
-            Our Vision statement
+         <h4 class="m-0 text-secondary text-justify">
+            Our Vision
          </h4>
-         <p class="mt-4 lead">Our vision is to empower the youth of India  by providing quality education in the field of Beauty and Wellness.</p>
+         <p class="lead text-justify">Our vision is to empower the youth of India  by providing quality education in the field of Beauty and Wellness.</p>
+         <h4 class="m-0 text-secondary text-justify">
+           Our Mission
+         </h4>
+         <p class="lead text-justify">The Beauty Marlin's mission is to transform lives by making euphoria and artistry accessible to both women and men. The Beauty Marlin brand has become synonymous with health and beauty in Indian habitation.</p>
       </div>
       <!--/ col-lg-->
       <div id="bg-about1" class="col-lg-6 border-start no-border-xs">
@@ -220,13 +230,14 @@
       </div>
       <!--/ col-lg-->
    </div>
+   
    <!-- /row -->
    <div class="row mt-5 bg-light">
       <div id="bg-about2" class="col-lg-6 border-end no-border-xs">
          <!-- image on css, about2.jpg -->
       </div>
       <div class="col-lg-6 p-5 my-auto res-mt-5">
-         <h4>
+         <h4 class="text-secondary">
             Our Philosophy
          </h4>
          <ul class="custom no-margin">
@@ -243,7 +254,7 @@
 </section>
 <!-- /section ends-->
 <!-- section -->
-<section id="team" class="bg-overlay2 border-bottom border-top">
+<section id="team" class="bg-overlay2 border-bottom border-top" style="display:none;">
    <div class="inside-wrapper container">
       <div class="row h-10">
          <div class="col-lg-6 offset-lg-3 my-auto text-center">
@@ -251,7 +262,7 @@
             <h2>
                Meet our Team
             </h2>
-            <p class="mt-4">Marlin has a prime objective of bridging the Marlin Salon Experts train students and give gap between traditional methodologies of them in-depth knowledge about various teaching and training students to gain in de courses and make them capable enough to shine with opportunities. </p>
+            <p class="mt-4"></p>
          </div>       
       </div>
       <!-- /row -->
@@ -260,6 +271,7 @@
 </section>
 <!-- /section ends-->
 <!-- section -->
+
 <?php
      include('common/footer.php')
 ?>
